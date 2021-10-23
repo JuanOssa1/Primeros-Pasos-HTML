@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <video controls preload="auto">
+            <source src="./prueba.mp4#t=1,2"> <!--Aqui indico que tipo de formato tiene el video para que el navegador lo identifique, recordar que este src puede ir dentro de la etiqueta video pero no funciona igual ya que aqui puedo poner varias source y dejar que el navegador escoja cual es capaz de renderizar-->
+            <!--<source src="./prueba.m4v#t=1,2"> Ejemplo-->
+            <!--<source src="./prueba.wmv#t=1,2"> Ejemplo-->
+        </video><!--Hace lo mismo que la etiqueta de figure, controls es un atributo que me va a dar los controles paly retroceder etc este es un atributo que no lleva un valor solo lleva un palabra que es controls y preload lo que hace es que renderiza el video cuando abre la pagina y no cuando le da click-->
+        <!--cuando le pongo #t=1,2 estoy indicando que inicie en 1 y termine en 2-->
+    </section>
+    </main>
+  </body>
+</html>

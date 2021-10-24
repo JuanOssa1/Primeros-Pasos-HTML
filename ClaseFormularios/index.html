@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+     <form action="">
+         <label for="nombre"><!--Este label lo que hace es relacionar la etiqueta con la cajita entonces cuando le hago click al label se sombrea la cajita que le corresponde -->
+            <span>Cual es tu nombre?</span><!--Es la pregunta que va al lado del formulario-->
+            <input type="text" id="nombre" placeholder="Tu nombre"><!--Esta ya viene siendo la caja con la que el usuario interactua,place holder Es como la mini descripcion que le dice al usuario que debe poner en la caja-->
+            <!--los type text date me da un calendario y time me da como un relojito--> 
+        </label>
+         <label for="inicio">
+            <span>Que dia comenzaste en platzi?</span><!--Es como la mini descripcion que le dice al usuario que debe poner en la caja-->
+            <input type="date" id="inicio"><!--Esta ya viene siendo la caja con la que el usuario interactua-->
+         </label>
+         <label for="horario">
+            <span>En que horario estudias?</span><!--Es como la mini descripcion que le dice al usuario que debe poner en la caja-->
+            <input type="time" id="horario"><!--Esta ya viene siendo la caja con la que el usuario interactua-->
+         </label>
+     </form> <!--Le dice al navegador que esto sera un formulario-->
+  </body>
+</html>

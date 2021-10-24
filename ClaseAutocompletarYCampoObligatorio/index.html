@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+     <main>
+        <form action="">
+            <label for="nombre">
+                <span>Cual es tu nomnre?</span>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required><!--El auto complete lo que va a hacer es que si hay informacion que el navegador tenga algun registro de que el usuario ha respondido una pregunta similar la auto complete-->
+            </label>
+            <label for="correo">
+                <span>Cual es tu correo</span>
+                <input type="email" id="correo" name="correo" autocomplete="email" required><!--required lo que hace es que el campo sea obligatorio-->
+            </label>
+            <label for="pais">
+                <span>En que pais vives?</span>
+                <input type="text" id="pais" name="pais" autocomplete="country" required>
+            </label>
+            <label for="codigopostal">
+                <span>Cual es tu codigo postal</span>
+                <input type="text" id="codigopostal", name="codigopostal" autocomplete="postal-code" required><!--Aqui podria ir en vez de text en typer number porque los codigos postales suelen ser solo numeros y asi forzaria a que lo que puede entrar ahi son numeros-->
+            </label>
+            <input type="submit">
+        </form> <!--Le dice al navegador que esto sera un formulario-->
+     </main>
+  </body>
+</html>

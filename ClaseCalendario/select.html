@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <!--<select name="" id=""> Es la etiqueta que genera una cajitya con scroll
+            <option value="JavaScript">JavaScript</option> Lo que esta en value es lo que envia y lo que esta en medio de option es lo que muestra en la pantalla
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Web standars">Web standars</option>
+        </select> Sin embargo esto es una mala practica ya que en moviles seria muy tedioso seleccionar -->
+
+        <input list="cursos">
+        <datalist id="cursos"> <!--Tiere que ser igual a la lista en general esto lo que nos va a permitir es que el usuario seleccione lo que esta buscando poniendo en la barrita lo que busca si la opccion no esta se envia al Js y este valida si es permitido o no-->
+            <option value="JavaScript"></option>
+            <option value="HTML"></option> 
+            <option value="CSS"></option> 
+            <option value="Web Standars"></option>  
+        </datalist>
+        
+            
+
+    </main>
+</body>
+</html>

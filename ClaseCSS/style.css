@@ -1,0 +1,16 @@
+/*Forma 1 Todo el elemento*/
+p { /*Aqui se le aplica este estilo a todas las etiquetas p de parrafo*/
+    color: blueviolet;
+    font-size: 100px;
+}
+/*Forma 2 Class*/
+
+.parrafo{
+  color: brown;  
+}
+
+/*Forma 3 ID*/
+#texto{
+    color: chartreuse;
+    font-size: 200px;
+}

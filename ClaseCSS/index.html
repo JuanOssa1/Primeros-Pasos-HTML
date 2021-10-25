@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--Esto me va a traer el css a mi html-->
+
+    <!--
+    <style>
+        p {
+            color: blueviolet;
+            font-size: 30px;
+        }
+
+    </style>Asi puedo cargar css pero tiene que ser poquito porque si es mucho queda muy mal -->
+  </head>
+  <body>
+    <main>
+      <p class="parrafo">Soy un texto</p>
+      <!--class lo que le va a hacer es indicarle al css donde va a aplicar un estilo si tengo una clase en el css con este nombre le aplicara ese estilo a esta etiqueta p de parrafo-->
+      <p id="texto">Soy otro texto</p> <!--Funciona igual que el anterior con la diferencia que en el css inicia con un # ademas hay que tener cuidado porque esto podria generar problemas cuando queramos usar el id para otra cosa podemos cambiarlo nosotors por error por querer asociarlo al css-->
+    </main>
+    <!--
+    <main>
+        <p style="color:aqua; font-size: 30px;">Soy un texto</p> Tambien lo puedo hacer asi que seria aplicando el css a cada cosa en especifico pero no es bueno porque esto puede reescribir si estoy usando un css afuera 
+    </main>
+    -->
+  </body>
+</html>

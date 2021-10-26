@@ -1,0 +1,28 @@
+.Frutas{
+  color: orange; 
+  font-style: italic;
+}
+.Carnes{
+    color: crimson;
+    font-style: italic;
+}
+.Verduras{
+    color: yellowgreen;
+    font-style: italic;
+}
+.container{
+    width: 200px;
+    height: 200px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.foot{
+    font-style: italic;
+    font-size: 100px;  
+}
+a{
+    color:rebeccapurple;
+}
+

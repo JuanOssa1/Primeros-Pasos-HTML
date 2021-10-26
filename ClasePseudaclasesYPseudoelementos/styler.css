@@ -1,0 +1,7 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;/*Le quita el estilo por defecto de una lista*/
+    padding-left: 0;
+    /*El navegador por defecto pone ciertos estilos y nosotros los podemos modificar, un 
+    ejemplo de estos es el paddign qie es el espacio que hay entre los puntivos de la lista que pone por defecto (ver apuntes) */
+}

@@ -2,6 +2,27 @@
     margin-top: 10px;
     list-style: none;/*Le quita el estilo por defecto de una lista*/
     padding-left: 0;
+    background-color: #13a4a4;
     /*El navegador por defecto pone ciertos estilos y nosotros los podemos modificar, un 
     ejemplo de estos es el paddign qie es el espacio que hay entre los puntivos de la lista que pone por defecto (ver apuntes) */
+}
+.main-nav__item{
+    display: inline-block; /*Cambia la disposicion de los elementos de la lista ahora seran hortizontales en vez de verticales*/
+}
+.main-nav__item a { /*Aqui estoy combinando como lo que ya habiamos visto en ocasiones anteriores le aplica el estilo a toca la etiqueta de tipo "a" pero que se encuentre en .main-nav__item*/
+    color: white;
+    padding: 50px; /*Esto da la separacion de cada link horizontal en el blog*/
+    border-radius: 2px; /*Esto solo se ve si se le pone background color y lo que hace es darle una figura circular a las esquinas del background */
+    text-decoration: none; /*quita la barrita de abajo de los links*/
+    /*background-color: Red;*/
+}
+.main-nav__item a:hover{ /*Esto seria una pseudo clase, lo que aria es que cuando el usuario acerque el raton al texto (hover) entoncesn cuando esto ocurra cambie el color*/
+    color: blue;
+}
+.main-nav__item a:active{ /*Active como hover es un estado y lo que significa active es cuando de click en el boton se ponga rojo*/
+    color: red;
+}
+.main-nav__item a::after{ /*:: asi se llama un pseudo elemento after quiere decir que despues del elemento le agregeue el contenido indicado*/
+    content: " | ";
+
 }

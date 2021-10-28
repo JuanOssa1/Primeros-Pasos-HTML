@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box; /*Lo que hjace es que abajo el width tome el 100% pero de la box entonces esto nos elimina el scroll*/
+*{/*Esto SIEMPRE debemos ponerlo*/
+    box-sizing: border-box; /*Lo que hjace es que abajo el width tome el 100% pero de la box entonces esto nos elimina el scroll, es decir toma el 100% pero de eso mas las otras cosas que le agrego el padding y el border*/
     padding: 0;
     margin: 0;
 }

@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box; /*Lo que hjace es que abajo el width tome el 100% pero de la box entonces esto nos elimina el scroll*/
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%; /*A pesar de que le puse width 100% me aparece el scroll porque le estoy pidiendo 100% pero ademas le estoy sumando los 10px del border y los 35px del padding*/
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px; /*20px arriba y abajo 35px de derecha e izquierda si quiero ser mas especifio puedo usar l;eft top right etc*/
+}

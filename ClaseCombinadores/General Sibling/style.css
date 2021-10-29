@@ -1,5 +1,5 @@
-/*Adjacent Sibling*/
-h2 + p { /*Esta es la forma de indicar que es un hermano cercano es decir a todos los que esten a lado de un h2 y que solo esten al lado y sean p les dara este estilo*/
+
+/*General sibling*/
+h2 ~ p { /*Lo qe hace es pintar los parrafos de color rojoa todas las etiquetas p que tengan como hermano general h2, es decir no tienen que estar al ladito de h2 para ser de ese color basta con que haya un h2 e este caso en el grupo div*/
     color: red;
 }
-/*General sibling*/

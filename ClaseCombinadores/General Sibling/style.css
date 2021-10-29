@@ -1,0 +1,5 @@
+/*Adjacent Sibling*/
+h2 + p { /*Esta es la forma de indicar que es un hermano cercano es decir a todos los que esten a lado de un h2 y que solo esten al lado y sean p les dara este estilo*/
+    color: red;
+}
+/*General sibling*/

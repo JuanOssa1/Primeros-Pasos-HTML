@@ -1,0 +1,11 @@
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: inherit;
+}
+/*Aqui lo que podemos observar es como h1 va a heredar el tamaño que le pusimos el primero
+va a pasar por main y main no tiene ningun tamañp de fuenteira subiendo hasta que encuentre un padre que si tenga un tamaño
+y se de esta forma herada ese tamaño */

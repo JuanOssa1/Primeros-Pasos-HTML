@@ -1,0 +1,38 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: purple;
+    font-family: serif; /*Esto tampoco se esta haciendo porque como # del id tiene mas importancia hara ese primero, pero el color y el margin si se estan hciendo porque la etiqueta de id no esta aplicando colores*/
+    margin-bottom: 10px;
+
+}
+
+#page-title{
+    font-family: Arial, Helvetica, sans-serif; /*Son varias si no sirve arial coge la que sigue y asi y la ultima siempre exoste*/
+}
+.title{
+    font-size: 18px;
+    font-family: monospace; /*Esto aqui no hace nada porque arriba estoy usando un id y un id es mas importante que una clase */
+}
+#main-nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: white;
+    background-color: #13a4a4;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+#main-nav .blog{
+    background-color: red;
+}

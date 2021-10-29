@@ -9,24 +9,20 @@ h1{
     margin-bottom: 10px;
 
 }
-
-#page-title{
-    font-family: Arial, Helvetica, sans-serif; /*Son varias si no sirve arial coge la que sigue y asi y la ultima siempre exoste*/
-}
 .title{
     font-size: 18px;
     font-family: monospace; /*Esto aqui no hace nada porque arriba estoy usando un id y un id es mas importante que una clase */
 }
-#main-nav{
+.nav{
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0px;
 }
-#main-nav li {
+.nav li {
     display: inline-block;
 }
 
-#main-nav a { /*Specificity*/
+.nav a { /*Specificity*/
     color: white;
     background-color: #13a4a4;
     padding: 5px;
@@ -34,6 +30,7 @@ h1{
     text-decoration: none;
 }
 
-#main-nav .blog{
+.nav .blog{ /*Aqui le estoy dicinedo que busqye una etiqueta blog en una nav esto me da una especificas 0 2 0 es decir dos clases
+    lo que hace que le de as importancia que nav a que tiene 1 clase y 1 etiqueta y ya sabemos que las clases importan mas que las etiquetas*/
     background-color: red;
 }

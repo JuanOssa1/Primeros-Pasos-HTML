@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;/*Aqui lo que hace es bajar la dimension a de 16 a sacarle el porcentaje ahora lo que va a apasar es que los rem se van a ver como si fueran px es decir voy a lograr que 16px sea igual a 1.6 rem 
+    y que por ejemplo 32px sea igual a 3.2 rem*/
+}
+.parent {
+    border: 0.2rem black dotted; /*dotted lo que hace es un margen punteado*/
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 10rem;
+    height: 10rem;
+}
+#two{
+    background-color: green;
+    /*position: absolute; /*Esto lo que hace es que el cuadro 2 se vuelve una posicion absoluta osea como que se corre para adelante y pierde su posicion original y todo lo demas se corre y despues de eso encima de lo demas si se comienza a modificar */
+    position: relative; /*Esto lo que hace es que se mantenga su posicion */
+    bottom: 1.5rem;
+}

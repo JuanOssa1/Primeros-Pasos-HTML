@@ -1,0 +1,9 @@
+main{
+    background-color: rosybrown;
+    width: 100%; /*No importa el tamaño de la pantalla mostrara el 100%*/
+    height: 500px;
+}
+p{
+    font-size: 18px; /*No importa que pantalla se usa siempre seguira siendo el mismo si usamos px*/
+    font-size: 100%; /*Por defecto html tiene 16 px entonces si le saca el 50% estaria mostrando 8*/
+}

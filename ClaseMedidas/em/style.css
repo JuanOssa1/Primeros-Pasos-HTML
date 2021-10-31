@@ -1,0 +1,13 @@
+
+body{
+    font-size: 20px;
+}
+.text-container{
+    font-size: 1.5em;/*Toma el tamaño de fuente que tenga el padre directo y lo multiplica en este caso como habiamos visto por defecto html tiene 15 entonces lo que va a hacer es coger 16 y lo va a multiplicar por 1.5 lo que nos dara un tamaño de 24*/
+/*Edit: Como ya le puse al body 20 y el padre directo es el mismo entonces cuando uso em toma 20 y lo multiplica por el em en este caso 1*/
+}
+.text-container div{
+    font-size: 1.5em;/*Aqui no sera el tamaño del body multiplicado por 1.5 porque el padre directo aqui no es el body,
+    lo que scede es que como al main le puse 1.5em el mai ya tiene un tamaño de 24 este ahora es el padre directo y si ahora al div le pongo 1.5 seria 24*1.5 que seria 36*/
+}
+/*Por eso lo mejor suele ser usar la medida rem*/

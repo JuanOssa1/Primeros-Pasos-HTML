@@ -1,0 +1,4 @@
+/*Child*/
+div > p{ /*Etiqueta parrafo que sea hija directa de div*/
+    color: red;
+}

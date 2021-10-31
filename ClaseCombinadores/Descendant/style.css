@@ -1,0 +1,5 @@
+/*Descendant*/
+div p{  /*Todas las etiquetas p que esten dentro de un contenedor div las pinta del color indicado en este caso rojo*/
+    color: red;
+}
+/*Se va a guiar con el principal es decir que basta con que por fuera este un div el p lo pintara*/

@@ -1,5 +1,5 @@
 
 /*General sibling*/
 h2 ~ p { /*Lo qe hace es pintar los parrafos de color rojoa todas las etiquetas p que tengan como hermano general h2, es decir no tienen que estar al ladito de h2 para ser de ese color basta con que haya un h2 e este caso en el grupo div*/
-    color: red;
+    color: red; 
 }

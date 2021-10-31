@@ -10,4 +10,4 @@ body{
     font-size: 1.5em;/*Aqui no sera el tamaño del body multiplicado por 1.5 porque el padre directo aqui no es el body,
     lo que scede es que como al main le puse 1.5em el mai ya tiene un tamaño de 24 este ahora es el padre directo y si ahora al div le pongo 1.5 seria 24*1.5 que seria 36*/
 }
-/*Por eso lo mejor suele ser usar la medida rem*/
+/*Por eso lo mejor suele ser usar la medida rem asi no se acumula a la hora de anidar*/

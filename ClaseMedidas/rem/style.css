@@ -1,0 +1,10 @@
+html{
+    font-size: 62.5%;/*Aqui lo que hace es bajar la dimension a de 16 a sacarle el porcentaje ahora lo que va a apasar es que los rem se van a ver como si fueran px es decir voy a lograr que 16px sea igual a 1.6 rem 
+    y que por ejemplo 32px sea igual a 3.2 rem*/
+}
+p {
+    font-size: 1.6rem; /*Rem siempre hace referencia siempre a la medida root que siempre sera la html*/
+}
+main div{
+    font-size: 1.6rem;
+}

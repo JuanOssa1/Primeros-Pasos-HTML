@@ -1,0 +1,26 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+html{
+    font-size: 62.5%;
+}
+*/
+main{
+    width: 100vw; /*Hace que tome el 100% del view*/
+    height: 100vh;
+    background-color: palevioletred;
+}
+
+section{
+    width: 80%;
+    min-width: 320px;/*Esto lo que va a hacer es que cuando haga mas pequeña la ventana se hagan mas pequeños los lados pero nunca va a ser menor a 320*/
+    max-width: 500px;
+    min-height: 500px; /*Aqui lo que indico es que a la section le creo un tamaño minimo pero puede crecer todo lo que quiera para que no haya overflow y se haga un cuadro balanco debajo del section*/
+    margin: 0 auto; /*Lo que hace aregar u margen automatico en los lados pero no arriba ni abajo*/
+    background-color: peru;
+}

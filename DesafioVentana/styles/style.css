@@ -15,11 +15,13 @@ html{
     width: 60rem;
     height: 60rem;
     border-radius: 4rem;
+    position: absolute;
+    margin-top: 2%;
 }
 .box{
     margin-top: 0%;
     background-color:powderblue;
-    position: static;
+    position: relative;
     width: 30rem;
     height: 5rem;
     border-radius: 2rem;

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.nav{
+    background-color: #1D4C78;
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
+    list-style: none;
+    text-align:right;
+}
+.nav li{
+    display: inline-block;
+    font-size: 2.0rem;
+    margin: 0.5rem;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+}

@@ -55,24 +55,20 @@ header{
     display: table;
     list-style: none;
 }
-
-.side-bar figure{
+.side-bar figure{ /*Aqui estan heredando todos los figure*/
     position: relative;
     background-color: #9c9c9c;
     border-radius: 2rem;
     width:  30rem;
     height: 18rem;
     margin: 2rem;
-    
-    
+    padding: 2rem;
 
 }
-.container-glados{
-    line-height: 18rem;
-    position: absolute;
-
-}
-.img-glados{
-    vertical-align: middle;
+.side-bar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 25rem;
+    
 }

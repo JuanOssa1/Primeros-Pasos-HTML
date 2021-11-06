@@ -13,11 +13,7 @@ html{
 }
 .nav{
     background-color: burlywood;
-    padding-top: 2.0rem;
-    padding-bottom: 2.0rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-
+    padding: 2.0rem;
     list-style: none;
     text-align: center;
 }

@@ -63,12 +63,29 @@ header{
     height: 18rem;
     margin: 2rem;
     padding: 2rem;
-
 }
 .side-bar img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25rem;
+    width: 25rem; 
+}
+.main-content{ /*Esta vaina centra todo, exitaso*/
+
+    position: absolute;
+    background-color: #9c9c9c;
+    margin-left: 40rem;
+    width:  152rem;
+    height: 92.8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-content iframe{
+    width: 80rem;
+    height: 60rem;
+    position: absolute;
+    
     
 }

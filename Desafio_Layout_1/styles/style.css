@@ -70,7 +70,8 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25rem; 
+    width: 25rem;
+    /*wallpaper flare*/ 
 }
 .main-content{ /*Esta vaina centra todo, exitaso*/
 /*https://www.w3schools.com/css/css_align.asp*/

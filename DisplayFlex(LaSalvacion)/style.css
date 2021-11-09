@@ -12,20 +12,28 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    flex-direction: row;
-    /*flex-wrap: wrap;Hace que al que se haga la ventana mas chiquita organize los elem,entos dentro del contenedor automaticamente */
+    /*flex-direction: row;*/
+    flex-wrap: wrap;/*Hace que al que se haga la ventana mas chiquita organize los elem,entos dentro del contenedor automaticamente */
     /*flex-direction puedo cambiar en como veo las cvajas dsi en columnas y en fiilas si en filas alreves etc */
-    justify-content: center; /*Hace que todo se vaya al centro*/
+    /*justify-content: center;*/ /*Hace que todo se vaya al centro space-around da espacios a las cajas*/
+    /*height: 50vh;*/
+    /*align-items: center;*/ /*Lo centra de forma vertical, si en vez de center le pongo strech lo que hace es que va a estirar las cajas a su contenedor padre si 
+    no tienen una altura definidda asi: si le pongo base line sera tand peque;o como el contenido que hay dentro*/
 }
 .box {
-    width: 10rem;
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 .box1{
     background-color: blueviolet;
+    /*order: 1; Esto cambiara el orden en que se muestran la cajas en el html, si a unos contenedores no les pongo orden estos se pasaran a la izquierda*/
+    /*flex-grow: 1;/*Esto lo que hace es indicarle a la cajita quew rellene el espacio sobrande del contenedor mayor */
 }
 .box2{
     background-color:brown;
+    /*order: 3;*/
+    /*flex-grow: 1;*/
 }
 .box3{
     background-color:cadetblue;
@@ -35,7 +43,9 @@ body{
 }
 .box5{
     background-color:coral;
+    /*order: 4;*/
 }
 .box6{
     background-color:yellowgreen;
+    /*order: 2;*/
 }

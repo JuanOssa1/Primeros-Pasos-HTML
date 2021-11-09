@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;Hace que al que se haga la ventana mas chiquita organize los elem,entos dentro del contenedor automaticamente */
+    /*flex-direction puedo cambiar en como veo las cvajas dsi en columnas y en fiilas si en filas alreves etc */
+    justify-content: center; /*Hace que todo se vaya al centro*/
+}
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blueviolet;
+}
+.box2{
+    background-color:brown;
+}
+.box3{
+    background-color:cadetblue;
+}
+.box4{
+    background-color:chartreuse;
+}
+.box5{
+    background-color:coral;
+}
+.box6{
+    background-color:yellowgreen;
+}

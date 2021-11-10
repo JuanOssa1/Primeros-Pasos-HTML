@@ -13,7 +13,7 @@ html{
     font-size: 62.5%;
 }
 header{
-    width: 100vw;
+    width: 100vw;/*View height es como un 100%*/
     height: 15vh;
     background-color: var(--primary-color);
 }

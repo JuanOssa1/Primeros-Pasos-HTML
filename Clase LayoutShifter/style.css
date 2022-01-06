@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%; /*Esto es unicamente para el tamaño de las fuentes*/
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /*Permite la reposicion*/
+}
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 150px; /*15 rem = 150px dont forget*/
+    height: 150px;
+    /*margin-left: 10px;*/
+    
+    
+}
+.c4 {
+    height: auto;
+}
+.c1 {
+
+    background-color: yellow;
+    position: relative;
+   
+}
+.titleY {
+    position: absolute;
+    /*height: 150px;*/
+    top: 42.3%;/*Aqui especidfico la ubicacion, aqui estoy diciendo que este centrado deberia ser 50% pero tengo que restarle el tamaño del h2 para tener el valior real del centro seria 63.5 y el 42% de 150 es 63 cercano a 63.5*/
+    margin-top: 0; 
+    width: 100%;
+    text-align: center;
+}
+.c2 {
+    background-color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.c3 {
+    background-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.c4 {
+    background-color: white;
+}
+.c5 {
+    background-color: brown;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;   
+}
+.titleB {
+
+    
+}
+
+@media (min-width: 600px){ 
+    .c1 {
+        margin-top: 5px;
+        width: 25%;
+    }
+    .c4{
+        width: 75%;
+    }
+    .c5{
+        width: 100%
+    }
+}
+@media (min-width: 800px){
+   .container{
+        width: 800px;
+        margin-left: auto;/**/
+        margin-right: auto;/*margin: 0 auto haria lo mismo que la linea 51 y 52*/
+   }
+    .c1 {
+        margin-top: 0;
+        width: 50%;
+        order: 1; /*Define el orden de derecha a izquierda*/
+        
+    }
+    .c4{
+        width: 100%;
+    }
+    .c5{
+        width: 50%;
+        order: 2;
+    }
+    
+}

@@ -51,7 +51,7 @@ html {
 .c4 {
     background-color: white;
 }
-.c5 {
+.c5 { /*EJEMPLO DE CENTRAR TODO*/
     background-color: brown;
     /*
     margin-bottom: 5px;
@@ -69,10 +69,19 @@ html {
     
 }
 
-@media (min-width: 600px){ 
+@media (min-width: 600px){
+    
+    .container{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;/*margin: 0 auto haria lo mismo que la linea 51 y 52*/
+   }
+   
     .c1 {
-        margin-top: 5px;
+        margin-top: 0px;
         width: 25%;
+        height: 315px;
+        border: 5px solid white
     }
     .c4{
         width: 75%;
@@ -91,6 +100,8 @@ html {
         margin-top: 0;
         width: 50%;
         order: 1; /*Define el orden de derecha a izquierda*/
+        height: 150px;
+        margin-right: 0px;
         
     }
     .c4{

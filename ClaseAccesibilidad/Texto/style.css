@@ -1,0 +1,10 @@
+/*Si uso medidas absolutas como los pixeles los tamanios de las letras no van a escalar siempre van a hacer eso y gente que quiero que sea vea mas grande no lo van a lograr hacer desde la configuracion */
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.8rem;
+}
